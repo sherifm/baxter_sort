@@ -54,6 +54,8 @@ Every individual factor within this project are working successfully, though the
 
 2) The weight calculation based on Baxter's provided end effector wrench is inconsistent and non representative to the actual mass of the object.  
 
+We also cannot get our launch file to work, so please run the files seperately.
+
 ##Discussion <a name="Discussion"></a>
 To solve the aforementioned problems, the team will do the following:
 
