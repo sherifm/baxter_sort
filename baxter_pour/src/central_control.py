@@ -43,11 +43,15 @@ import baxter_pour.msg
 class central_control:
 
     def __init__ (self):
+        print 'Initialized central controller'
+        time.sleep(5) 
         self.listener=tf.TransformListener()
         self.main()
 
 
     def main(self):
+
+
 
         self.posepickup1=numpy.array([.6,.6,-0.02])
         self.posepickup2=numpy.array([.6,.5,-0.02])

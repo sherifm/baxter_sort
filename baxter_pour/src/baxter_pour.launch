@@ -1,23 +1,17 @@
 
 
 <launch>
-<!--   <arg name="vis" default="false"/> --> 
-<!-- if rviz is desired  -->
-
-<!-- static transforms from baxter's base to kinect-->
-  <node pkg="tf" type="static_transform_publisher" name="temp_frame"
-	args="0.2 0 0.19 -.5 .5 -.5 .5 base temp 100" />
-
-  <node pkg="tf" type="static_transform_publisher" name="kinect_frame"
-	args="-0.06 .032 -0.08 0.19937 0 0 -.97992 temp kinect 100" />
 
 <!-- startup simulator node -->
-<!--   <node pkg="baxter_pour" type="baxter_pour.py" name="baxter_pour_proj"
-	respawn="true" output="screen" /> -->
 
+  <node pkg="baxter_pour" type="central_control.py" name="central_control"
+    respawn="true" output="screen" />
 
-  <!-- <group if="$(arg vis)">
-  	<node pkg="rviz" type="rviz" respawn="false" name="rviz"/>
-  </group> -->
+  <node pkg="baxter_pour" type="move_object.py" name="move_object"
+    respawn="true" output="screen" />
+
+  <node pkg="baxter_pour" type="weigh_object.py" name="weigh_object"
+    respawn="true" output="screen" />
+
 
 </launch>
