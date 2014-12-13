@@ -1,5 +1,6 @@
 ##Baxter and Asus Xtion  - Using Point Cloud Data to Manipulate Cylinders From Perceived Mass
 By: Ritwik Ummalaneni, Athulya Simon, Jackie Wu, Sherif Mostafa, and Austin Lawrence
+<iframe src="//player.vimeo.com/video/114438212" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/114438212">Untitled</a> from <a href="http://vimeo.com/numsr">MSR at Northwestern</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 #### Table of Contents ####
 [Abstract](#Abstract)
