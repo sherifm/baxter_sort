@@ -1,0 +1,16 @@
+#goal definition
+float32 x_pickup
+float32 y_pickup
+float32 z_pickup
+
+float32 x_dropoff
+float32 y_dropoff
+float32 z_dropoff
+---
+#result definition
+bool status
+---
+#feedback
+float32 x_current
+float32 y_current
+float32 z_current

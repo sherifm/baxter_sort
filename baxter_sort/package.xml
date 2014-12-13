@@ -1,0 +1,20 @@
+<package>
+  <name>baxter_sort</name>
+  <version>1.0.0</version>
+  <description>
+  	ME495 project.
+  </description>
+
+  <maintainer email="sherif@todo.todo">sherif</maintainer>
+  <license>TODO</license>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>baxter_pour</run_depend>
+  <run_depend>baxter_pcl</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+
+</package>
