@@ -1,7 +1,7 @@
 ##Baxter and Asus Xtion  - Using Point Cloud Data to Manipulate Cylinders From Perceived Mass
 By: Ritwik Ummalaneni, Athulya Simon, Jackie Wu, Sherif Mostafa, and Austin Lawrence
 
-Please click (here)[https://vimeo.com/114438212] to see a video of baxter using this package for intelligent object manipulation.
+Please click [here](https://vimeo.com/114438212) to see a video of baxter using this package for intelligent object manipulation.
 
 #### Table of Contents ####
 [Abstract](#Abstract)
